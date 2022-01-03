@@ -62,6 +62,7 @@ from netmiko.f5 import F5TmshSSH
 from netmiko.f5 import F5LinuxSSH
 from netmiko.flexvnf import FlexvnfSSH
 from netmiko.fortinet import FortinetSSH
+from netmiko.fujitsu import Fujitsu1FinitySSH
 from netmiko.hp import HPProcurveSSH, HPProcurveTelnet, HPComwareSSH, HPComwareTelnet
 from netmiko.huawei import HuaweiSSH, HuaweiVrpv8SSH, HuaweiTelnet
 from netmiko.huawei import HuaweiSmartAXSSH
@@ -182,6 +183,7 @@ CLASS_MAPPER_BASE = {
     "f5_linux": F5LinuxSSH,
     "flexvnf": FlexvnfSSH,
     "fortinet": FortinetSSH,
+    "fujitsu": Fujitsu1FinitySSH,
     "generic": GenericSSH,
     "generic_termserver": TerminalServerSSH,
     "hp_comware": HPComwareSSH,
